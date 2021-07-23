@@ -1,1 +1,7 @@
-@import "/sass/utils/variables";
+// UTILS
+@import "./utils/variables";
+@import "./utils/visualy-hidden";
+
+// BASE
+@import "./base/common";
+@import "./base/container";

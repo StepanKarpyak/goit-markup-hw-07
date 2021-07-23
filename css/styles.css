@@ -1,62 +1,5 @@
 
-html{
-    box-sizing: border-box;
-}
 
-*,
-*::after,
-*::before{
-    box-sizing: inherit;
-}
-
-/*стилі для онулення верхніх відступів*/
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-/*клас для онулення базових характеристик ul,ol*/
-.list{
-    list-style: none;
-}
-
-/*клас для онулення базових характеристик ссилок*/
-
-.link{
-    text-decoration: none;
-    color: inherit;
-}
-/*властовості для коректного відображення картинок*/
-img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-/*властовості для онулення курсива у address*/
-address{
-    font-style: normal;
-    /*font-style: inherit;*/
-}
-text{
-    color: var(--main-color);
-}
-body {
-    font-family:var(--main-font);    
-}
 .btn{
     display: block;
     font-family: inherit;
@@ -66,10 +9,7 @@ body {
     color: inherit;
 
 }
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 .section-title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -77,13 +17,6 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-}
-.conteiner{
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    /*outline: 2px solid red ;*/
 }
 /*===HEADER===*/
 .header{
@@ -270,13 +203,7 @@ body {
 /*===AND HERO===*/
 
 /*===DESCRIPTION===*/
-.visualy-hidden{
-    position: absolute;
-    clip: rect(0 0  0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-}
+
 .icon-description {
     display: flex;
     align-items: center;
