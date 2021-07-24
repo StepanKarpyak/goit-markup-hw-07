@@ -384,8 +384,7 @@ body {
   transition: color var(--animation);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-link:hover, .menu-link:focus {
   color: var(--accent-color);
 }
 
@@ -393,6 +392,13 @@ body {
   color: var(--accent-color);
 }
 
+/*.menu-link:hover,
+.menu-link:focus{
+    color: var(--accent-color);
+}*/
+/*.menu-link.current{
+    color: var(--accent-color);
+}*/
 .mail-link,
 .tel-link {
   display: flex;
@@ -405,26 +411,29 @@ body {
   transition: color var(--animation);
 }
 
-.mail-link:hover,
-.mail-link:focus {
-  color: var(--accent-color);
-}
-
+.mail-link:hover, .mail-link:focus,
 .tel-link:hover,
 .tel-link:focus {
   color: var(--accent-color);
-}
-
-.mail-link:hover,
-.mail-link:focus {
   fill: var(--accent-color);
 }
 
+/*.mail-link:hover,
+.mail-link:focus{
+    color: var(--accent-color);
+}
 .tel-link:hover,
-.tel-link:focus {
-  fill: var(--accent-color);
+.tel-link:focus{
+    color: var(--accent-color);
 }
-
+.mail-link:hover,
+.mail-link:focus{
+    fill: var(--accent-color);
+}
+.tel-link:hover,
+.tel-link:focus{
+    fill: var(--accent-color);
+}*/
 .icon-contacts {
   margin: 0 10px 0 0;
   fill: currentColor;

@@ -42,14 +42,21 @@
     color: var(--main-color);
     position: relative;
     transition: color var(--animation);
+    &:hover,
+    &:focus{
+        color: var(--accent-color);
+    }
+    &.current{
+        color: var(--accent-color);
+    }
 }
-.menu-link:hover,
+/*.menu-link:hover,
 .menu-link:focus{
     color: var(--accent-color);
-}
-.menu-link.current{
+}*/
+/*.menu-link.current{
     color: var(--accent-color);
-}
+}*/
 .mail-link,
 .tel-link{
     display: flex;
@@ -60,8 +67,13 @@
     letter-spacing: 0.02em;
     color: var(--p-text-color);
     transition: color var(--animation);
+    &:hover,
+    &:focus{
+        color: var(--accent-color);
+        fill: var(--accent-color);
+    }
 }
-.mail-link:hover,
+/*.mail-link:hover,
 .mail-link:focus{
     color: var(--accent-color);
 }
@@ -76,7 +88,7 @@
 .tel-link:hover,
 .tel-link:focus{
     fill: var(--accent-color);
-}
+}*/
 .icon-contacts{
     margin: 0 10px 0 0;
     fill: currentColor;
