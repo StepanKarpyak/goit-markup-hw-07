@@ -355,13 +355,13 @@ body {
   align-items: center;
 }
 
-.tel-mail-link {
+.contacts-link {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.list-mail-link + .list-mail-link {
+.header-contacts + .header-contacts {
   margin-left: 50px;
 }
 
