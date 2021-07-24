@@ -350,17 +350,6 @@ body {
   color: var(--accent-color);
 }
 
-.current::after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-  bottom: -1px;
-  border-radius: 2px;
-}
-
 .menu {
   display: flex;
   align-items: center;
@@ -439,6 +428,17 @@ body {
 .icon-contacts {
   margin: 0 10px 0 0;
   fill: currentColor;
+}
+
+.current::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+  bottom: -1px;
+  border-radius: 2px;
 }
 
 .hero {
